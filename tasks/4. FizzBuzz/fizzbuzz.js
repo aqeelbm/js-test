@@ -11,8 +11,7 @@ export function getFizzBuzzUntil(n) {
       arr.push("Buzz");
     } else
         arr.push(i);
-    // arr[i] =
-  }
+    }
 
   return arr;
 

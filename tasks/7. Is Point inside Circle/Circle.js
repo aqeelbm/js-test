@@ -18,8 +18,6 @@ export default function(center, radius) {
       let x_center = center.x;
       let y_center = center.y;
 
-      //let result = Math.pow(((x_coordinates-x_center) + (y_coordinates-y_center)), 2);
-
       let result = Math.pow((x_coordinates-x_center), 2) +
                     Math.pow((y_coordinates-y_center), 2);
 

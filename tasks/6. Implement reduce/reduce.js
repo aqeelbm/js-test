@@ -10,7 +10,7 @@ export function Reduce(array, reducer, initialValue) {
 
 }
 
-let reducer = (acc, curr) => //acc += curr;
+let reducer = (acc, curr) =>
 {
   if(typeof curr === 'string') {
     acc.concat(curr)
